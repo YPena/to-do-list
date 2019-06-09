@@ -1,3 +1,7 @@
+var allPeople = []
+var submit = $('.submit-btn');
+var cards = $('.name-cards');
+
 var submit = $('.submit-btn');
 var cards = $('.name-cards');
 
@@ -16,4 +20,8 @@ function addPerson(e) {
 
   $('.name-input').val("");
   $('.sign-input').val("");
+
+  allPeople.push({ name: name, sign: sign });
+  console.log(allPeople);
+
 }
