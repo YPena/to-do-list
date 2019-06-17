@@ -9,19 +9,19 @@ submit.on('click', addPerson);
 
 function addPerson(e) {
   e.preventDefault();
-  var name = $('.name-input').val();
-  var sign = $('.sign-input').val();
+  var number = $('.number-input').val();
+  var todo = $('.todo-input').val();
 
   cards.append(`
     <article class="card">
-      <h2>${name} is a ${sign}</h2>
+      <h2>${number} I have to ${todo}</h2>
     </article>
   `);
 
-  $('.name-input').val("");
-  $('.sign-input').val("");
+  $('.number-input').val("");
+  $('.todo-input').val("");
 
-  allPeople.push({ name: name, sign: sign });
+  allPeople.push({ number: number, todo: todo });
   console.log(allPeople);
 
 }

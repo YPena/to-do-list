@@ -1,5 +1,5 @@
 .card {
-  border: 4px dotted Orange;
+  border: 4px dotted yellow;
 }
 * {
   margin: 0;
@@ -9,11 +9,13 @@
 
 body {
   padding: 20px;
-  background-color: #004a5e;
+  background-color: pink;
+  text-align: center;
 }
 
 form {
   width: 400px;
+  display: inline-block;
 }
 
 input {
@@ -21,7 +23,7 @@ input {
   width: 400px;
 }
 
-.name-input{
+.number-input{
   border-radius: 5px;
   border: 2px solid grey;
   padding: 10px 5px;
@@ -29,15 +31,15 @@ input {
   margin-bottom: 15px;
 }
 
-.name-input{
-  color: #efbc19;
+.number-input{
+  color: hotpink;
   text-align: center;
   margin-bottom: 20px;
   font-family: Helvetica;
   font-weight: lighter;
 }
 
-.sign-input{
+.todo-input{
   border-radius: 5px;
   border: 2px solid grey;
   padding: 10px 5px;
@@ -45,8 +47,8 @@ input {
   margin-bottom: 15px;
 }
 
-.sign-input{
-  color: #efbc19;
+.todo-input{
+  color: #ADFF2F;
   text-align: center;
   margin-bottom: 20px;
   font-family: Helvetica;
@@ -54,7 +56,7 @@ input {
 }
 
 .submit-btn {
-  background-color: #efbc19;
+  background-color: #7FFF00;
   font-size: 12px;
   padding: 12px;
   text-transform: uppercase;
